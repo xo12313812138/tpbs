@@ -1,47 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<title>GitHub &amp; BitBucket HTML Preview</title>
-	<style>
-	body {
-		font: 12px 'Helvetica Neue', Helvetica, Arial, freesans, clean, sans-serif;
-		color: #333;
-	}
-	h1 {
-		font-size: 20px;
-	}
-	a {
-		color: #666;
-	}
-	#previewform {
-		display: none;
-		padding: 20px; 
-		text-align: center;
-	}
-	strong {
-		color: #333;
-		background-color: #FAFFA6;
-		padding: 0.1em;
-	}
-	#footer {
-		margin: 20px 0;
-		font-size: 10px;
-		color: #666;
-	}
-	</style>
-</head>
-<body>
-	<form id="previewform" onsubmit="location.href='/?'+this.file.value;return false">
-		<h1>GitHub &amp; BitBucket HTML Preview</h1>
-		<p>
-			Enter URL of the HTML file to preview:
-			<input type="url" id="file" value="" placeholder="e.g. https://github.com/user/repo/blob/master/index.html" size="60" autofocus>
-			<input type="submit" value="Preview">
-		</p>
-		<p>or prepend to the URL: <code><strong>http://htmlpreview.github.io/?</strong>https://github.com/twbs/bootstrap/blob/gh-pages/2.3.2/index.html</code></p>
-		<p id="footer">Developed by <a href="https://github.com/niutech">niu tech</a> | Contribute on <a href="https://github.com/htmlpreview/htmlpreview.github.com">GitHub</a></p>
-	</form>
-	<script src="/htmlpreview.js"></script>
+	<form>
+		<input type="text" name="userName">
+		<input type="password" name="passwd">
+		<input type="radio" name="sex" value="1">男    
+		<input type="radio" name="sex" value="0">女
+		<input type="checkbox" name="hobby" value="1">读书
+		<input type="checkbox" name="hobby" value="2">音乐
+		<input type="checkbox" name="hobby" value="3">运动
+		<select name="degree">    
+			<option value="">--请选择--</option>    
+			<option value="1">专科</option>   
+			<option value="2">本科</option>   
+			<option value="3">硕士</option>   
+			<option value="4">博士及以上</option>
+		</select>
+		<textarea name="comment" rows="5" cols="30"></textarea>
+		<input type="submit" value="提交"><input type="reset" value="重置"><input type="button" value="返回">
+		<input type="hidden" name="userId" value="1001">
+	</from>	
 </body>
 </html>
