@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<form>
+</head>
+<body>
+		<form>
 		<input type="text" name="userName">
 		<input type="password" name="passwd">
 		<input type="radio" name="sex" value="1">男    
