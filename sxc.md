@@ -8,7 +8,7 @@
 		<input type="checkbox" name="hobby" value="1">读书
 		<input type="checkbox" name="hobby" value="2">音乐
 		<input type="checkbox" name="hobby" value="3">运动
-				学历：
+		学历：
 		<select name="degree">
 			<option value="">--请选择--</option>    
 			<option value="1">专科</option>    
@@ -17,8 +17,8 @@
 			<option value="4">博士及以上</option>
 		</select>
 		
-		备注：<textarea name="comment" rows="5" cols="30"></textarea>
-		
+		备注：
+		<textarea name="comment" rows="5" cols="30"></textarea>
 		<input type="submit" value="提交">
 		<input type="reset" value="重置">
 		<input type="button" value="返回">
