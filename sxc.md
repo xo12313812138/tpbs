@@ -1,19 +1,12 @@
 <table border="1">
-	<tr>  
-		<th>姓名</th> 
-		<th>邮件</th>
-	</tr>
-	<tr>    
-		<td>张明</td>   
-		<td>zhangming@neusoft.edu.cn</td>
-	</tr>
-	<tr>    
-		<td>王芳</td>  
-		<td>wangfang@neusoft.edu.cn</td>
-	</tr>
-	<tr>  
-		<td colspan="2" align="center">   
-			共 2 人  
-		</td>
-	</tr>
+	<form>
+		姓名：<input type="text" name="userName">
+		密码：<input type="password" name="passwd">
+		性别：<input type="radio" name="sex" value="1">男     
+		<input type="radio" name="sex" value="0">女
+		爱好：
+		<input type="checkbox" name="hobby" value="1">读书
+		<input type="checkbox" name="hobby" value="2">音乐
+		<input type="checkbox" name="hobby" value="3">运动
+	</form>
 </table>
