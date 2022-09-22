@@ -13,7 +13,8 @@
       <option value="4">博士及以上</option>
     </select>
     备注：
-  <textarea name="comment" rows="5" cols="30"></textarea>
+  <textarea name="comment" rows="5" cols="30">
+  </textarea>
     <input type="submit" value="提交">
     <input type="reset" value="重置">
     <input type="button" value="返回">
