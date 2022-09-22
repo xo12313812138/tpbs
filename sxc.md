@@ -11,7 +11,7 @@
       <option value="1">专科</option>   
       <option value="2">本科</option>   
       <option value="3">硕士</option>   
-      option value="4">博士及以上</option>
+      <option value="4">博士及以上</option>
     </select>
   </form>
 </body>
