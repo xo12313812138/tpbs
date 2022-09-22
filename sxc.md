@@ -1,24 +1,17 @@
+<!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<title></title>
-	</head>
-	<body>
-		学历：
-		<select name="degree">
-			<option value="">--请选择--</option>    
-			<option value="1">专科</option>    
-			<option value="2">本科</option>    
-			<option value="3">硕士</option>    
-			<option value="4">博士及以上</option>
-		</select>
-		
-		备注：<textarea name="comment" rows="5" cols="30"></textarea>
-		
-		<input type="submit" value="提交">
-		<input type="reset" value="重置">
-		<input type="button" value="返回">
-		
-		<input type="hidden" name="userId" value="1001">
-	</body>
+<head> 
+<meta charset="utf-8"> 
+<title>菜鸟教程(runoob.com)</title> 
+</head>
+<body>
+
+<select>
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="opel">Opel</option>
+  <option value="audi">Audi</option>
+</select>
+  
+</body>
 </html>
