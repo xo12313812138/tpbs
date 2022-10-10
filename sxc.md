@@ -22,11 +22,11 @@
 			文章正文
 			<h3>评论标题</h3>
 			评论正文
-		<b>	
+		<br>	
 			<address>     
 					版权所有：陆凌牛  
 			</address>  
-		</b>
+		</br>
 	</hgroup>
 </article>
 </body>
