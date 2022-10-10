@@ -25,10 +25,12 @@
 			<h2>文章子标题</h2>   
 			文章正文
 			<h3>评论标题</h3>
-			评论正文   
+			评论正文
+		<p>	
 			<address>     
 					版权所有：陆凌牛  
 			</address>  
+		</p>
 	</hgroup>
 </article>
 </body>
