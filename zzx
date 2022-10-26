@@ -32,7 +32,7 @@
               min-width: 19%;
               min-height: 7%;
               z-index: -1;
-      }
+     }
 	  </style>
     </head>
     <body>
