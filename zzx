@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8" />
+  <title></title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+    }
+   #tu{
+    weight:65px;
+    height: 65px;
+    border-radius: 50%;
+   }
+   #second{
+    float: left;
+   }
+   .zi{
+    padding-top: 20px;
+    color: white;
+    font-family:STXingkai;
+    font-size: 20px;
+    padding-left: 70px;
+   }
+   #first{
+      background-color: #0066FF;
+      position: absolute;
+      left: 0;
+             top: 0;
+              min-width: 19%;
+              min-height: 7%;
+              z-index: -1;
+      }
+	  </style>
+    </head>
+    <body>
+     <div id="first">
+      <div id="second">
+       <img src="./img/t017d613eb9f0f95b98.png" id="tu">
+      </div>
+      <div class="zi">精勤博学，学以致用</div>
+     </div>
+    </body>
+   <ml>
